@@ -1,0 +1,54 @@
+# Вариант 1
+# Задание № 1
+number = int(input("-10"))
+if number < 0:
+    number = abs(number)
+elif number == 0:
+ number = 1
+print(number)
+
+# Задание № 2
+text = input("Введите строку: ")
+if '.' in text or ',' in text :
+print(True)
+else:
+print(False)
+
+# Задание № 3
+num1 = int(input("3")
+num2 = int(input("0")
+if num1 % 3 == 0 or num2 % 3 ==):
+print(True)
+elif num1 % 3 == 0 or num2 % 3 == 0:
+print("Одно число делится на 3")
+else:
+print(False)
+
+# Вариант 2
+# Задание 1
+ number = int(input("100"))
+if number > 100:
+ print("*")
+elif number > 0:
+print("*" * number)
+else:
+print()
+
+# Задание № 2
+
+string1 = input("Tir")
+string2 = input("Tur")
+print(string1 == string2)
+
+
+
+
+
+
+
+
+
+
+
+
+
