@@ -40,6 +40,23 @@ string1 = input("Tir")
 string2 = input("Tur")
 print(string1 == string2)
 
+# Задание № 3
+
+r = int (input("0 r:"))
+g = int (input("0 g:"))
+b = int (input("0 b:"))
+if r == 0 and g == 0 and b == 0:
+print("Чёрный цвет")
+elif r == 255 and g == 255 and b == 255:
+print("Белый цвет")
+elif r == 255 and g == 0 and b == 0:
+print("Красный цвет")
+elif g == 255 and r == 0 and b == 0
+print("Зелёный цвет")
+elif b == 255 and r == 0 and g == 0:
+print("Синий цвет")
+else:
+print("Нет цвета")
 
 
 
