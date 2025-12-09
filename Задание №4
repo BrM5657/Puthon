@@ -67,16 +67,19 @@ else:
 number = 1
 print(f"{number - 1}, {number}, {number + 1}")
 
+# Задание 2
+filename = ipunt("Введите имя файла с расширением:")
+extetion = filename.split('.')[-1].lower()
+if exstension == 'doc':
+print("Word file")
+elif extestion == 'py':
+print("Python file")
+elif extention == 'txt':
+print("Text file")
+else:
+print("Неизвестное расшириное")
 
-
-
-
-
-
-
-
-
-
+# Задание 3
 
 
 
