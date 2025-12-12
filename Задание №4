@@ -79,8 +79,41 @@ print("Text file")
 else:
 print("Неизвестное расшириное")
 
+# Вариант 4
+# Задание 1
+text = 'important in one line'
+letter = input('Введите букву:')
+if letter in text:
+    print(True)
+else:
+    print(Felse)
+
+# Здание 2
+a = float(input('Введите первую строну:'))
+b = float(input('Введите первую строку:'))
+
+if a == b:
+    figure = 'квадрат'
+    area = a ** 2
+else:
+    figure ='прямоугольник'
+    area = a * b
+
+print(f'Фигура: {figure}')
+print(f'Площадь: {area}')
+
 # Задание 3
+answer = input('Как твои дела')
 
+if answer.lower() in ['хорошо', 'нормально', 'отлично']:
+    print(''v'')
+elif answer.lower() in ['плохо', 'не хорошо'];
+    print(''^'')
+else:
+    print(''-'')
 
+# Вариант 5
+# Задание 1
 
-
+a = float(input("Введите целое число: "))
+b = float(input("Введите целое число: "))
