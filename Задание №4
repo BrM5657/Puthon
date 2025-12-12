@@ -117,3 +117,21 @@ else:
 
 a = float(input("Введите целое число: "))
 b = float(input("Введите целое число: "))
+
+if a > b:
+     result = a ** b
+elifr b > a:
+    result = a ** b
+else:
+    result = a + b
+
+print("Результат:', result)
+
+# Задание 2
+new_message = "Hello! How are you?"
+your_message = input("Введите ваш ответ: ")
+
+if new_message[0] == your_message[0]:
+    print(True)
+else:
+    print(False)
