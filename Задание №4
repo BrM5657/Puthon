@@ -135,3 +135,89 @@ if new_message[0] == your_message[0]:
     print(True)
 else:
     print(False)
+
+# Вариант 6
+# Задание 1
+
+strind = input("Введите строку: ")
+if string[0] == string[-1]
+    print(True)
+else:
+    print(False)
+# Задание 2
+number = int(input("Введите число: "))
+if number % 2 == 0:
+    print(number ** 2)
+elif number % 3 == 0:
+    print(number ** 3)
+else:
+    print(number * 100)
+# Задание 3
+num1 = int(input("Введите первое число: "))
+num2 = int(input("Введите второе число: "))
+
+if num1 < 0 and num2 < 0:
+    print(Felse)
+elif num1 > 0 and num2 > 0:
+    print(True)
+elif num1 < 0:
+    print(num1 + 1000, num2)
+elif num2 < 0:
+    print(num1, num2 + 1000)
+
+# Вариант 7
+# Задание 1
+text = input("Введите строку: ")
+if text[-1] in ['я', 'и', 'е', 'ю']:
+    print(True)
+else:
+    print(Felse)
+# задание 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
