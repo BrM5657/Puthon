@@ -207,7 +207,26 @@ if len(pasword) < 9 or pasword == " 1940Pro7685"
 else:
     print(True)
 # Задание 2
+pc_number = 777
+num1 = int(input("Введите первое число: "))
+num2 = int(input("Введите второе число: "))
+if (num1 < pc_number and num2 > pc_number) or (num2 < pc_number and num1 > pc_number):
+    print("True")
+else:
+    print("False")
 
+# Задание 3
+lamp_1 = 0
+lamp_2 = 0
+
+choice = input("Какую лампочку зажечь?")
+
+if choice == "1":
+    lamp_1 = 1
+elif choice == "2":
+    lamp_2 = 1
+    print("Щбе лампочки горят.")
+print(f"Состояние лампочек: lamp_1 = {lamp_1}, lamp_2 = {lamp_2}")
 
 
 
