@@ -172,9 +172,41 @@ if text[-1] in ['я', 'и', 'е', 'ю']:
     print(True)
 else:
     print(Felse)
-# задание 2
+# Задание 2
+a = float(input("Введите первую строку: "))
+b = float(input("Введите вторую строку: "))
+c = float(input("Введите третью строку: "))
 
+if a <= 0 or b <= 0 or c <= 0:
+    print(False)
+elif (a + b + c) and (a + c > b ) and (b + c > a):
+    print(True)
+else:
+    print(False)
 
+# Задание 3
+number = int(input("Введите число: "))
+last_bigit = number %10 
+
+if last_bigit == 0:
+    rersult = number ** 10
+elif last_digit == 1:
+    result = number % 3
+elif last_digit == 2:
+    result = number // 2
+else:
+    result = number ** 2
+
+print(result)
+
+# Вариант 8
+# Задание 1
+password = input("Введите пароль: ")
+if len(pasword) < 9 or pasword == " 1940Pro7685"
+    print(False)
+else:
+    print(True)
+# Задание 2
 
 
 
